@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Both respsonsive and adaptaive webistes work towards changing a website's appearance based on the web browser and other various settings.  The means by which they accomplish are their main differences.  Essentially, adaptive sites will "adapt" to the settings, while responsive sites will "respond".  With adaptive websites, the site will detect the available space, and then select the appropriate layout from various mixed layout sizes.  Responsive sites on the otherhand will rely on media queries to modify the site's layout based on the screen size.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+In the past, sites were built primarily for a desktop user experience.  Mobile experiences were either an afterthough, or neglected entirely.  With more people using their smart phones to browse online, websites are starting shift their emphasis to focus mobile user experience.  This is a mobile first websites. With mobile first websites, the site is designed for a mobile experience, with modifications being made if the user is on a desktop. From the perspective of CSS code, instead of a max-width meida query, it will use a min-width.   
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+The size of REM unies is relative to the font-siz of the root element.  By setting the html tag to 62.5%, 1 rem will calculate out to 10px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+CSS pre-processing allows you to introduce more advanced programming concepts like variables, functions, and mixins into your CSS.  The preprocessing lets you nest your code more, allowing you to manually write less code, and repeat yourself much less.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite is using mixins as well as nesting large pieces of code.  The most trouble I receive is still the 
+specificity that is a part of CSS.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
