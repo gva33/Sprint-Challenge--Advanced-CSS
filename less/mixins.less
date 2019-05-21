@@ -1,1 +1,18 @@
 // Mixins Here
+
+.layout (@display,@center,@align){
+    display:@display;
+    justify-content: @center;
+    align-items: @align;
+}
+
+.no {
+    @media @mobile {
+        display:none;
+    }
+}
+
+.but(@width,@height) {
+    width:@width;
+    height:@height;
+}
